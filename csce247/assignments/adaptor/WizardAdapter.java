@@ -4,7 +4,6 @@
  * to be able to be called and act as though they are warrior objects
  *
  *
- *
  * @author Luis Canales
  * @date 10/23/2019
  *
@@ -25,7 +24,8 @@ public class WizardAdapter implements Warrior {
 
 	}
 
-	/*
+	/* Allows for the wizards performSpell method to act
+	 * as though it were an attack method from a warrior object
 	 * @param none
 	 */
 	public void attack() {
@@ -33,14 +33,13 @@ public class WizardAdapter implements Warrior {
 
 	}
 
-	/*
+	/* Allows for the wizards heal method to act
+	 * as though it were an attack method from a warrior object
 	 * @param none
 	 */
 	public void defend() {
 		wizard.heal();
 
 	}
-
-
-
+	
 }
